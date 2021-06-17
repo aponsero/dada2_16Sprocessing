@@ -1,6 +1,6 @@
 #!/bin/bash -l
 #SBATCH --job-name=dada2_pipeline
-#SBATCH --account=Project_2001503
+#SBATCH --account=#YOUR PROJECT
 #SBATCH --output=output_%j.txt
 #SBATCH --error=errors_%j.txt
 #SBATCH --partition=small
