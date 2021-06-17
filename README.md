@@ -4,6 +4,12 @@ Simple pipeline for 16S taxonomic analysis using dada2
 
 ## Before running:
 
+### conda env
+If necessary create the conda environment for dada2 (not necessary in puhti at csc)
+
+```
+conda env create -f dada2.yml
+```
 
 ### Database
 Download the appropriate dada2 databases for the taxonomic annotation step:
