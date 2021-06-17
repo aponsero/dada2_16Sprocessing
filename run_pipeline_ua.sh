@@ -1,11 +1,9 @@
 #!/bin/bash
 #SBATCH --job-name=dada2
 ### REQUIRED. Specify the PI group for this job
-#SBATCH --account=bhurwitz
+#SBATCH --account=#YOUR_GROUP
 ### Optional. Request email when job begins and ends
 ### SBATCH --mail-type=ALL
-### Optional. Specify email address to use for notification
-### SBATCH --mail-user=aponsero@email.arizona.edu
 ### REQUIRED. Set the partition for your job.
 #SBATCH --partition=standard
 ### REQUIRED. Set the number of cores that will be used for this job.
