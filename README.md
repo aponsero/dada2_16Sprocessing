@@ -8,11 +8,10 @@ Simple pipeline for 16S taxonomic analysis using dada2
 ### Database
 Download the appropriate dada2 databases for the taxonomic annotation step:
 
-'''
+```
 mkdir database
 wget https://zenodo.org/record/2541239/files/RefSeq-RDP16S_v2_May2018.fa.gz
-
-'''
+```
 
 More databases accessible at https://benjjneb.github.io/dada2/training.html 
 
